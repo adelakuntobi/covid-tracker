@@ -243,7 +243,8 @@ footer li {
     display: none !important;
   }
   header .mobile__nav,
-  header .mobile__hamburger {
+  header .mobile__hamburger,
+  footer .list-div {
     display: block;
   }
   .mobile__nav__bg{
