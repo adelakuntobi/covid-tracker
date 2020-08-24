@@ -6,3 +6,126 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.welcome{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+.start{
+  margin-top: 50px;
+  width:40%;
+}
+
+.start h1{
+  font-size: 3rem;
+  
+}
+
+.start .safe {
+  margin-top:10px ;
+  margin-bottom:10px;
+  font-size:1.8rem;
+  color:#006400;
+}
+
+.start p{
+  font-size: 1.1rem;
+  line-height: 30px;
+}
+
+.btn-learn{
+  margin-top:10px;
+  width: 30%;
+  padding: 10px 40px;
+  border-radius: 15px;
+  font-size:0.8rem;
+  font-weight: bold;
+  background-color: #00CC6A;
+  border:none;
+  color:white;
+}
+
+.spread{
+  margin-top: 50px;
+}
+
+.spread h2{
+  width: 36%;
+  margin-left: 32%;
+  margin-right: 32%;
+margin-bottom: 20px;
+color:#006400;
+font-size: 2.5rem;
+}
+
+.spread h3{
+  font-size:1.5rem;
+}
+
+.spread .how{
+  width: 40%;
+  margin-left: 32%;
+  margin-right:28%;
+}
+
+.spread img{
+  width: 40%;
+  height: 150px;
+  margin-left: 30%;
+  margin-right: 30%
+}
+
+.spread h3{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top:80px;
+  margin-bottom: 15px;
+  text-align:center;
+}
+
+.spread p{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align:center;
+  line-height: 25px;
+}
+
+.ways{
+  display: flex;
+  justify-content: space-around;
+}
+
+.symptoms{
+  display: flex;
+  justify-content: space-around;
+  margin-top:40px;
+  margin-bottom: 30px;
+}
+
+.explain{
+  width:30%;
+}
+
+ .sym-head{
+   margin-top:60px;
+  text-align:center;
+  margin-bottom: 10px;
+  color:#006400;
+  font-size:2.5rem;
+}
+
+.btn-help{
+  margin-top:10px;
+  width: 60%;
+  padding: 10px 40px;
+  border-radius: 15px;
+  font-size:0.8rem;
+  font-weight: bold;
+  background-color: #00CC6A;
+  border:none;
+  color:white;
+}
