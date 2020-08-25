@@ -10,6 +10,7 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/gethelp.css" />
 </head>
 
 <body>
@@ -53,6 +54,17 @@
     </div>
   </header>
 
+  <main class="container-fluid p-md-5">
+    <span class="nav__logo o">Get <span>Help</span> • <span class="text-muted">Nigeria</span></span>
+    <input type="search" oninput="edit(this)" onfocus="Focus(this)" onblur="Blur(this)"placeholder="Search for state">
+    <section class="row numbers-category">
+      
+    </section>
+  </main>
+
+
+
+
 
   <footer class="mt-5">
     <div class="d-block d-lg-flex container list-div py-5">
@@ -95,6 +107,7 @@
   </footer>
 
   <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/gethelp.js"></script>
 </body>
 
 </html>
