@@ -131,7 +131,7 @@ header .mobile__nav__bg {
 }
 
 header .mobile__nav__bg div {
-  width: 70%;
+  width: 300px;
   background-color: #f2f2f2;
   position: fixed;
   right: 0;
