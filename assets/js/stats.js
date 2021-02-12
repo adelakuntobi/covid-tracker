@@ -17,7 +17,7 @@ async function showData(){
   data.Countries.forEach(function(country,index) {    
   //Using the createNode function to create new elements
   var divCol = createNode('tr'),
-   h2 = createNode('th'),
+   h2 = createNode('td'),
    pConf = createNode('td'),
    //pActive = createNode('p'),
    pRec = createNode('td'),
@@ -83,3 +83,4 @@ function myFunction() {
     }       
   }
 }
+
